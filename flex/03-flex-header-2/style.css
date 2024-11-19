@@ -12,6 +12,17 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* changes  below*/
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+/* changes below*/
+.left-side, .right-side {
+  display: flex;
+  gap: 16px;
+  align-items: center; /* centering items here makes the button compact */
 }
 
 .profile-image {
@@ -45,4 +56,9 @@ a {
 
 ul {
   list-style-type: none;
+  /* changes below */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
 }
